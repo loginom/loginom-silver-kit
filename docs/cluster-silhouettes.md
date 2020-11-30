@@ -70,24 +70,24 @@
 | 1 | Индекс силуэта         | ![](./img/realnumber.svg) Вещественный | Значение индекса силуэта кластеризации |
 | 2 | Качество кластеризации | ![](./img/string.svg) Строковый        | Интерпретация значения индекса силуэта, см. **Алгоритмы** |
 
-## Описание алгоритмов
+## Алгоритмы
 
 Общее описание ([ссылка 1](https://en.wikipedia.org/wiki/Silhouette_%28clustering%29)) и подробный алгоритм с реализацией на языке Питон ([ссылка 2](http://scikit-learn.org/stable/auto_examples/cluster/plot_kmeans_silhouette_analysis.html#sphx-glr-download-auto-examples-cluster-plot-kmeans-silhouette-analysis-py)).
 
-Индекс оценки силуэта **SilhouetteScore** расчитывается по формуле:
+1. Индекс оценки силуэта **SilhouetteScore** расчитывается по формуле:
 
-![SilhouetteScore =  \frac{BI - AI}{max(AI,BI)}](./img/1_cluster-silhouettes.svg), где:
+    ![SilhouetteScore =  \frac{BI - AI}{max(AI,BI)}](./img/1_cluster-silhouettes.svg), где:
 
-* ![AI](./img/2_cluster-silhouettes.svg) — Расстояние до центра кластера;
-* ![BI](./img/3_cluster-silhouettes.svg) — Расстояние до центра соседнего кластера.
+    * ![AI](./img/2_cluster-silhouettes.svg) — Расстояние до центра кластера;
+    * ![BI](./img/3_cluster-silhouettes.svg) — Расстояние до центра соседнего кластера.
 
-Среднее значение индекса оценки силуэта **SilhouetteCoefficient** варьируется от -1 до 1.
+2. Среднее значение индекса оценки силуэта **SilhouetteCoefficient** варьируется от -1 до 1.
 
-Метка, отвечающая за качество кластеризации, формируется по правилу:
+3. Метка, отвечающая за качество кластеризации, формируется по правилу:
 
-* Качество кластеризации **Низкое**, если **SilhouetteCoefficient** < 0,2;
-* Качество кластеризации **Среднее**, если **SilhouetteCoefficient** в интервале [0,2; 0,5)
-* Качество кластеризации **Высокое**, если **SilhouetteCoefficient** > 0,5.
+    * Качество кластеризации **Низкое**, если **SilhouetteCoefficient** < 0,2;
+    * Качество кластеризации **Среднее**, если **SilhouetteCoefficient** в интервале [0,2; 0,5)
+    * Качество кластеризации **Высокое**, если **SilhouetteCoefficient** > 0,5.
 
 ## Дополнительная литература
 
