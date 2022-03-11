@@ -1,7 +1,7 @@
 # Loginom Silver Kit
 
-* Версия: 1.4.3
-* Проверено: Все редакции Loginom 6.4.2
+* Версия: 2.0.0
+* Проверено: Все редакции Loginom 6.5.0, 6.5.1
 
 Библиотека **Loginom Silver Kit** поддерживается и развивается **Loginom Company**. В ней представлены простые и полезные компоненты, облегчающие рутинный труд аналитика по разработке сценариев обработки данных. Компоненты библиотеки широко используются в электронных учебных курсах  компании и библиотеках компонентов к бизнес-курсам.
 
@@ -15,11 +15,13 @@
 
 3. Добавьте ссылку на пакет **loginom_silver_kit.lgp** в своем пакете и используйте компоненты библиотеки
 
+![Схема расположения библиотеки в рабочем каталоге](docs/img/silver-kit.svg)
+
 ## Требования
 
 Для работы библиотеки **Loginom Silver Kit** необходимо:
 
-* Установленное ПО Loginom. Версия не ниже 6.4.2
+* Установленное ПО Loginom. Версия не ниже 6.5.0
 
 ## Список компонентов
 
@@ -34,6 +36,7 @@
 * [Разбиение на пачки](./docs/fragmentation.md)
 * [Разделитель строк](./docs/cell-splitter.md)
 * [Сэмплинг объектов](./docs/objects-sampling.md)
+* [Популярные объекты](./docs/popular-objects.md)
 
 ### Data Mining
 
@@ -45,11 +48,12 @@
 * [Сравнение метрик](./docs/comparison-of-metrics.md)
 * [Статистическая значимость](./docs/statistical-significance.md)
 * [Метрики классификации](./docs/classification-metrics.md)
+* [Тривиальная модель](./docs/trivial-model.md)
 
 ### Утилиты
 
 * [Генератор календаря](./docs/calendar-generator.md)
-* [Генератор пустых полей](./docs/empty-filds-generator.md)
+* [Генератор пустых полей](./docs/empty-fields-generator.md)
 * [Категория к числу](./docs/category-to-number.md)
-* [Случайная категория](./docs/random-category.md)
-* [Фильтр столбцов](./docs/column-filter.md)
+* [Случайная категория JS](./docs/random-category.md)
+* [Фильтр столбцов JS](./docs/column-filter.md)
