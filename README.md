@@ -28,6 +28,8 @@
 
 ## Список компонентов
 
+[Скачать документацию в PDF](docs/pdf/Loginom_Silver_Kit.pdf)
+
 ### ETL и подготовка данных
 
 * [ABC-анализ](./docs/abc-analysis.md)
