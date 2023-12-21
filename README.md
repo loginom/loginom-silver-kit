@@ -28,7 +28,7 @@
 
 ## Список компонентов
 
-[Скачать документацию в PDF](docs/pdf/Loginom_Silver_Kit.pdf)
+[Скачать документацию в PDF](docs/pdf/Loginom%20Silver%20Kit.pdf)
 
 ### ETL и подготовка данных
 
